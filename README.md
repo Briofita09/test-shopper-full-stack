@@ -18,8 +18,8 @@ Instale as dependencias
 $ npm i
 ```
 
-Repita o processo para a pasta server
-Crie um arquivo .env com base no `.env.example`
+Repita o processo para a pasta server.
+Crie um arquivo .env com base no `.env.example`.
 Ainda na pasta server rode os seguintes comandos para configurar o prisma e o banco de dados
 
 ```bash

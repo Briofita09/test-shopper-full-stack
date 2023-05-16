@@ -35,4 +35,4 @@ npm run dev
 ## 🧠 Projetado por
 
 Felipe Osório dos Santos 
-![LinkedIn](https://www.linkedin.com/in/felipe-osorio/)
+[LinkedIn](https://www.linkedin.com/in/felipe-osorio/)

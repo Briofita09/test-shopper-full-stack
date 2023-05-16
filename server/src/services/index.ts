@@ -1,6 +1,7 @@
 import * as productRepository from "../repositories/productRepoisitories";
 import * as packRepository from "../repositories/packsRepositories";
 import { readCsv } from "../utils";
+import { Product } from "../interfaces/products";
 
 type Item = {
   product_code: string;
@@ -64,5 +65,21 @@ export async function editProducts(file: any) {
         price
       );
     }
+    return true;
   }
+}
+
+export async function getProducts(list: any) {
+  const products: any[] = [];
+  for (let i = 1; i < list.length; i++) {
+    const item = await productRepository.findProduct(Number(list[i][0]));
+    if (item)
+      products.push({
+        code: Number(item.code),
+        name: item.name,
+        costPrice: Number(item.cost_price),
+        salePrice: Number(item.sales_price),
+      });
+  }
+  return products;
 }

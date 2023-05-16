@@ -1,6 +1,4 @@
-import fs from "fs";
 import csvParser from "csv-parser";
-import * as packsRepositorie from "../repositories/packsRepositories";
 
 export async function readCsv(file: any) {
   try {

@@ -32,7 +32,6 @@ E por fim, rode o seguinte comando na pasta server e na pasta front para rodar a
 ```bash
 npm run dev
 ```
-## 🧠 Projetado por
+## 🧠 Desenvolvedor
 
-Felipe Osório dos Santos 
-[LinkedIn](https://www.linkedin.com/in/felipe-osorio/)
+[Felipe Osório dos Santos](https://www.linkedin.com/in/felipe-osorio/)

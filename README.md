@@ -23,14 +23,14 @@ Crie um arquivo .env com base no `.env.example`.
 Ainda na pasta server rode os seguintes comandos para configurar o prisma e o banco de dados
 
 ```bash
-npx prisma generate
-npx prisma migrate dev
+$ npx prisma generate
+$ npx prisma migrate dev
 ```
 
 E por fim, rode o seguinte comando na pasta server e na pasta front para rodar a aplicação
 
 ```bash
-npm run dev
+$ npm run dev
 ```
 ## 🧠 Desenvolvedor
 
